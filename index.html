@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PizzaCatch Express</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Home Page -->
+  <section id="home" class="home-section">
+    <img src="images/pizzacatch_logo.png" alt="PizzaCatch Express Logo" class="logo">
+    <h1 class="catchphrase">FAST, FRESH, AND FUN DINING</h1>
+    <nav>
+      <ul>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#mission">MISSION & VISION</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#game">PLAY GAME</a></li>
+      </ul>
+    </nav>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="content-section services-bg">
+    <h2>SERVICES</h2>
+    <div class="section-text">
+      <p>• Freshly baked pizzas with customizable toppings</p>
+      <p>• Quick delivery and take‑out options</p>
+      <p>• Party catering with themed menus</p>
+      <p>• Loyalty rewards program</p>
+      <p>• Interactive dining experience with our PizzaCatch game</p>
+    </div>
+  </section>
+
+  <!-- Mission & Vision Section -->
+  <section id="mission" class="content-section mission-bg">
+    <h2>MISSION & VISION</h2>
+    <div class="section-text">
+      <p class="mission"><strong>MISSION:</strong> Deliver customizable pizzas that bring joy to every meal.</p>
+      <p class="vision"><strong>VISION:</strong> Become the most fun and interactive pizza brand worldwide.</p>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="content-section faq-bg">
+    <h2>FAQ</h2>
+    <div class="section-text">
+      <p><strong>DO YOU OFFER VEGETARIAN OPTIONS?</strong><br>Yes, we have a wide range of vegetarian and vegan pizzas.</p>
+      <p><strong>CAN I CUSTOMIZE MY PIZZA?</strong><br>Absolutely — choose your crust, sauce, and toppings.</p>
+      <p><strong>DO YOU DELIVER?</strong><br>Yes, we deliver within 30 minutes in most areas.</p>
+      <p><strong>DO YOU CATER FOR PARTIES?</strong><br>Yes, we offer catering packages for birthdays, office events, and celebrations.</p>
+    </div>
+  </section>
+
+  <!-- Game Section -->
+  <section id="game" class="content-section game-bg">
+    <h2>PLAY GAME</h2>
+    <div class="game-container">
+      <canvas id="gameCanvas" width="400" height="600"></canvas>
+      <p id="score">Score: 0 | Time: 20</p>
+      <button id="startBtn">START GAME</button>
+      <button id="restartBtn" style="display:none;">RESTART GAME</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 PizzaCatch Express</p>
+  </footer>
+
+  <script src="game.js"></script>
+</body>
+</html>
